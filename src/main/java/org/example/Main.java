@@ -38,12 +38,12 @@ public class Main {
                 logger.info(v);
 
             }
-            if (choice == 2) {
+           else if (choice == 2) {
                 String u="closed:"+s;
                 logger.info(u);
 
             }
-            if (choice == 3) {
+            else if (choice == 3) {
                 exit = 1;
             }
         }
