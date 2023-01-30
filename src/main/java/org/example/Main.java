@@ -3,7 +3,7 @@ import java.util.*;
 import java.util.logging.*;
 
 class Connect{
-   static  String c;
+    String c;
     String x;
     private static Logger logger = Logger.getLogger("InfoLogging");
     static Connect instance(String x)
@@ -14,11 +14,6 @@ class Connect{
     {
         this.c=c;
 
-    }
-    static void close()
-    {
-        String u="closed:"+c;
-        logger.info(u);
     }
 }
 public class Main {
@@ -44,7 +39,8 @@ public class Main {
 
             }
             if (choice == 2) {
-                Connect.close();
+                String u="closed:"+s;
+                logger.info(u);
 
             }
             if (choice == 3) {
