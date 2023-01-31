@@ -27,7 +27,6 @@ public class Main {
         s=sc.next();
         int exit=0;
         while(exit==0) {
-            try{
             logger.info("Enter the choice");
             logger.info("1.changing the connection 2.close 3.Exit");
             choice = sc.nextInt();
@@ -44,12 +43,6 @@ public class Main {
 
             } else if (choice == 3) {
                 exit = 1;
-            }
-        }
-            catch (Exception e)
-            {
-                logger.info("Invalid choice");
-                sc.nextLine();
             }
         }
 
