@@ -2,7 +2,7 @@ package org.example;
 
 import java.util.logging.Logger;
 
-class Connect{
+public class Connect{
     String c;
     String x;
     private static Logger logger = Logger.getLogger("InfoLogging");
