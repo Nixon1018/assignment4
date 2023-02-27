@@ -2,20 +2,7 @@ package org.example;
 import java.util.*;
 import java.util.logging.*;
 
-class Connect{
-    String c;
-    String x;
-    private static Logger logger = Logger.getLogger("InfoLogging");
-    static Connect instance(String x)
-    {
-        return new Connect(x);
-    }
-    private Connect(String c)
-    {
-        this.c=c;
 
-    }
-}
 public class Main {
     private static Logger logger = Logger.getLogger("InfoLogging");
     public static void main(String[] args) {
